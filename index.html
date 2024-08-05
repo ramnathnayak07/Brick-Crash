@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Brick Crash</title>
+  </head>
+  <body>
+    <h1>Brick Crash!!</h1>
+    <button id="rules-btn" class="btn rules-btn">Show Rules</button>
+
+    <div id="rules" class="rules">
+      <h2>Game Rules</h2>
+      <ul>
+        <li><strong>Objective:</strong> Clear all the bricks by bouncing the ball off the paddle to hit the bricks. Each brick hit earns you points.</li>
+        <li><strong>Gameplay:</strong>
+          <ul>
+            <li><strong>Paddle:</strong> Use the left and right arrow keys to move the paddle horizontally along the bottom of the canvas.</li>
+            <li><strong>Ball:</strong> The ball bounces off the walls, the paddle, and the bricks. If the ball hits the bottom wall, you lose a life.</li>
+          </ul>
+        </li>
+        <li><strong>Bricks:</strong>
+          <ul>
+            <li>Bricks are initially visible and change colors periodically.</li>
+            <li>When the ball hits a brick, the brick disappears, and you earn points.</li>
+          </ul>
+        </li>
+        <li><strong>Scoring:</strong> Each brick hit increases your score by 1 point. Clearing all bricks will cause the game to restart with all bricks reappearing.</li>
+        <li><strong>Lives:</strong>
+          <ul>
+            <li>You start with 3 lives.</li>
+            <li>Losing a life resets the ball and paddle to their starting positions.</li>
+            <li>The game ends when you lose all lives.</li>
+          </ul>
+        </li>
+        <li><strong>Game Over:</strong> When all lives are lost, the game ends. A "Game Over" message will appear, and you can choose to restart the game.</li>
+        <li><strong>Winning:</strong> The game does not have a specific winning condition beyond clearing the bricks and restarting the level.</li>
+        <li><strong>Controls:</strong>
+          <ul>
+            <li><strong>Move Paddle:</strong> Use the left and right arrow keys.</li>
+          </ul>
+        </li>
+        <li><strong>Restarting:</strong> After the game ends, you can restart or exit the game.</li>
+      </ul>
+      <button id="close-btn" class="btn">Close</button>
+    </div>
+
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script src="script.js"></script>
+  </body>
+</html>
