@@ -24,5 +24,5 @@ JavaScript: Game logic and functionality.
 
 <a href="https://ramnathnayak07.github.io/Brick-Crash/">Click Here</a><br>
 
-<img  width="750" src="https://github.com/ramnathnayak07/Brick-Crash/blob/main/Snapshots/Home.png"/>
-<img  width="750" src="https://github.com/ramnathnayak07/Brick-Crash/blob/main/Snapshots/Rules.png"/>
+<img  width="900" src="https://github.com/ramnathnayak07/Brick-Crash/blob/main/Snapshots/Home.png"/>
+<img  width="900" src="https://github.com/ramnathnayak07/Brick-Crash/blob/main/Snapshots/Rules.png"/>
