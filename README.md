@@ -1,6 +1,6 @@
 # Brick Crash
 
-Brick Crash is a fun arcade game where you control a paddle to bounce a ball and break colorful, animated bricks. Clear all the bricks to advance while avoiding losing the ball. With vibrant, color-changing bricks and 3 lives to play with, aim for the highest score!!!
+Brick Crash is a fun arcade game where you control a paddle to bounce a ball and break colorful, animated bricks. Clear all the bricks to advance while avoiding losing the ball. With vibrant, color-changing bricks and 3 lives to play with, aim for the highest score!!
 
 Features:
 
